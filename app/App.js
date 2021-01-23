@@ -8,7 +8,7 @@ import { InfiniteScroll } from './helpers/infinite_scroll.js';
 export function App(){
 
     const $root = document.getElementById('root');
-    console.log($root);
+
     $root.innerHTML = null;
 
     $root.appendChild(Header());
